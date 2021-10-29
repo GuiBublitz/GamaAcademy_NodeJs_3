@@ -23,9 +23,11 @@ class User extends MachineOptions {
     logic() {
         if (this._selected === this._sort) {
             return `uhhhhhhhhhh this's a draw ${this._name}!!! ${this._name}: ${this._selected} | Machine: ${this._sort}`;
-        } else {
-            return `HUmmm.. The machine is learning, ${this._name}: ${this._selected} | Machine: ${this._sort}`;
-        }
+        } else if ((this._selected === "Rock" && this._sort === "Scissors") || (this._selected === "Paper" && this._sort === "Rock") || (this._selected === "Scissors" && this._sort === "Paper") ) {
+            return `Uowww ${this._name} WINSS! ${this._name}: ${this._selected} | Machine: ${this._sort}`;
+        } 
+        return `Opss ${this._name} Loses! ${this._name}: ${this._selected} | Machine: ${this._sort}`;
+    
     }
     game() {
         return this.logic();
