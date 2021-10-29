@@ -6,7 +6,7 @@
 //     rl.close();
 // });
 const options = require('./data/index');
-const MachineOptions = require('./controller/class/index');
+const MachineOptions = require('./controller/class/machine');
 
 let random = new MachineOptions({ opt: options }).sort();
 
