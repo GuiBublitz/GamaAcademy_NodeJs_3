@@ -1,3 +1,7 @@
 //Biblioteca
+const rl = require('./interface/index');
 
-console.log('Working as it should');
+rl.question('Are you enjoying the OOP class?', answer =>{
+    console.log(`Did you answer that? : ${answer}`);
+    rl.close();
+});
