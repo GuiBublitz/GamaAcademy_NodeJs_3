@@ -6,8 +6,9 @@
 //     rl.close();
 // });
 const options = require('./data/index');
-const MachineOptions = require('./controller/class/machine');
+const User = require('./controller/class/user');
 
-let random = new MachineOptions({ opt: options }).sort();
 
-console.log(random);
+let usuario = new User({ opt: options, name:'Guilherme', selected: 'Paper' }).game();
+
+console.log(usuario);
