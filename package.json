@@ -1,0 +1,21 @@
+{
+  "name": "JokenpoNodejsPOO",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido durante a aula de POO da GamaAcademy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiBublitz/ProjetoNodejsPOO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiBublitz/ProjetoNodejsPOO/issues"
+  },
+  "homepage": "https://github.com/GuiBublitz/ProjetoNodejsPOO#readme"
+}
