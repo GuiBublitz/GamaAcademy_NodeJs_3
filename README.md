@@ -1,2 +1,15 @@
-# ProjetoNodejsPOO
-Projeto desenvolvido durante a aula de POO da GamaAcademy
+# jokenpo-linha-comando
+
+Jogo Jokenpo com linha de comando usando NODEJS - POO
+
+## Módulo de programação Orientada a Objetos:
+Neste módulo elaboramos uma interface de linha comando com NODEJS fazendo uso de estrutura de classes e objetos literais com Javascript.
+
+Para baixar o repositório :
+`git clone https://github.com/GuiBublitz/JokenpoNodejsPOO.git`
+
+Para iniciar a aplicação:
+`npm run jogar`
+
+--
+
