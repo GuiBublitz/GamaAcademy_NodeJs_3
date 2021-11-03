@@ -27,7 +27,7 @@ Para baixar o repositório :
 `git clone https://github.com/GuiBublitz/JokenpoNodejsPOO.git`
 
 Para iniciar a aplicação:
-`npm run jogar`
+`npm start`
 
 --
 ## :rocket: Tecnologias
