@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/GuiBublitz/ProjetoNodejsPOO/issues"
   },
-  "homepage": "https://github.com/GuiBublitz/ProjetoNodejsPOO#readme"
+  "homepage": "https://github.com/GuiBublitz/ProjetoNodejsPOO#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
