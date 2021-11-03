@@ -23,8 +23,7 @@
 Neste módulo elaboramos uma interface de linha comando com NODEJS fazendo uso de estrutura de classes e objetos literais com Javascript.
 
 ## :arrow_forward: Executando o projeto
-Para baixar o repositório :
-`git clone https://github.com/GuiBublitz/JokenpoNodejsPOO.git`
+Para baixar o repositório :`git clone https://github.com/GuiBublitz/JokenpoNodejsPOO.git`
 
 Para iniciar a aplicação:
 `npm start`
