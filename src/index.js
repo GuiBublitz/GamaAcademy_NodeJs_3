@@ -5,10 +5,10 @@
 //     console.log(`Did you answer that? : ${answer}`);
 //     rl.close();
 // });
+// Substituimos o rl pelo inquirer, como vc pode ver no arquivo user.js 
 const options = require('./data/index');
 const User = require('./controller/class/user');
 
 
-let usuario = new User({ opt: options, name:'Guilherme', selected: 'Paper' }).game();
-
-console.log(usuario);
+let jogar = new User({ opt: options }).game();
+console.info(jogar);

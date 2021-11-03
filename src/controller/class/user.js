@@ -1,6 +1,7 @@
 const MachineOptions = require('./machine');
 const inquirer = require('inquirer');
 const options = require('../../data/index');
+const gameby = require('../../data/gameby');
 
 class User extends MachineOptions {
     constructor({ opt, name, selected }) {
@@ -32,18 +33,19 @@ class User extends MachineOptions {
 
     }
     game() {
+        console.info(gameby)
         return inquirer
             .prompt([
                 /* Pass your questions in here */
                 {
                     name: 'name',
-                    message: 'Qual seu nome?',
-                    default : 'Jogador'
+                    message: `What's your name?`,
+                    default : 'Player'
                 },
                 {
                     type: 'list',
                     name: 'jokenpo',
-                    message: 'Selecione uma destas opções',
+                    message: 'Choose one of these options:',
                     choices: options
                 }
             ]).then((answers) => {
