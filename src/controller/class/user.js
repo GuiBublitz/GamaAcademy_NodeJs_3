@@ -49,8 +49,8 @@ class User extends MachineOptions {
                     choices: options
                 }
             ]).then((answers) => {
-                this._name = answers.name;
-                this._selected = answers.jokenpo;
+                this.name = answers.name;
+                this.selected = answers.jokenpo;
                 console.info(this.logic());
             })
     }
